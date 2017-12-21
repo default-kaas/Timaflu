@@ -70,6 +70,34 @@ h1{
     flex: 1 0 auto;
 }
 
+.content_horizontal{
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.content_box_left{
+    flex-direction: column;
+    text-align: center;
+    width:50%;
+}
+
+.content_box_right{
+    flex-direction: column;
+    text-align: center;
+    width:50%;
+}
+
+form{
+    color: white;
+    font-family: 'open sans', sans-serif;
+    text-align: center;
+}
+
+form fieldset{
+    border: none;
+}
 /*Footer*/
 html, body{
     height: 100%;
