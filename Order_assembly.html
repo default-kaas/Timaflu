@@ -35,12 +35,7 @@
             </fieldset>
             <fieldset>
                 <label>Datum</label>
-                <select>
-                    <option>kaas</option>
-                    <option>tomaat</option>
-                    <option>komkomer</option>
-                    <option>ui</option>
-                </select>
+                <input id="date" type="date" placeholder="dd/mm/jjjj">
             </fieldset>
             <fieldset>
                 <label>Postcode leveradres</label>
@@ -100,20 +95,40 @@
             </fieldset>
         </div>
         <div class="content_box_right">
-            <fieldset><label>Medicijn</label><label>Aantal</label><label>Prijs</label> </fieldset>
-            <fieldset>
+            <fieldset class="left">
+                <label>Medicijn</label>
                 <select>
                     <option>kaas</option>
                     <option>tomaat</option>
                     <option>komkomer</option>
                     <option>ui</option>
                 </select>
+
+                <label></label>
+                <input type="submit" class="button" name="submitbutton" value="Extra product">
+            </fieldset>
+
+            <fieldset>
+                <label>Aantal</label>
                 <input>
+            </fieldset>
+
+            <fieldset>
+                <label>Prijs</label>
                 <input>
             </fieldset>
         </div>
     </div>
-        <input type="submit" name="submitbutton" value="Aanmelden">
+        <div class="content_box_button">
+            <input type="submit" class="button" name="submitbutton" value="Bestelling plaatsen">
+        </div>
+        <div class="content_box_button">
+            <input type="submit" class="button" name="submitbutton" value="Klant toevoegen">
+        </div>
+        <div class="content_box_button">
+            <input type="submit" class="button" name="submitbutton" value="Adres toevoegen">
+        </div>
+        </div>
     </form>
 
     <footer>Timaflu

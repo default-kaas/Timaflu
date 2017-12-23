@@ -70,6 +70,7 @@ h1{
     flex: 1 0 auto;
 }
 
+/*Order_assembly form */
 .content_horizontal{
     align-items: flex-start;
     display: flex;
@@ -77,27 +78,61 @@ h1{
     margin-bottom: 3%;
 }
 
+/*Order_assembly form left side */
 .content_box_left{
     flex-direction: column;
-    text-align: center;
     width:50%;
 }
-
-.content_box_right{
+.content_box_left fieldset{
+    display: flex;
     flex-direction: column;
-    text-align: center;
+    margin-left: 35%;
+}
+
+/*Order_assembly form right side */
+.content_box_right{
+    display: flex;
     width:50%;
 }
 
+.content_box_right fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+.content_box_right  .left{
+    margin-left: 23%;
+}
+
+/*Order_assembly bottom buttons */
+.content_box_button{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.button{
+    color: white;
+    background-color: lightsteelblue;
+    border: solid lightsteelblue 2px;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+}
+
+.content_box_right .button{
+    margin-top: 20px;
+}
+
+/*Form */
 form{
     color: white;
     font-family: 'open sans', sans-serif;
-    text-align: center;
 }
 
 form fieldset{
     border: none;
 }
+
 /*Footer*/
 html, body{
     height: 100%;
