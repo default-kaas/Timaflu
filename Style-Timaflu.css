@@ -157,6 +157,42 @@ form fieldset{
     border: none;
 }
 
+/*Table */
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th, td {
+    color: white;
+    font-family: 'open sans', sans-serif;
+    border: 2px solid dimgray;
+    text-align: center;
+}
+
+th{
+    background-color: lightgray;
+    padding: 4px;
+}
+
+td{
+    background-color: darkgray;
+    padding: 8px;
+}
+
+/*Button box (div)*/
+.vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /*Footer*/
 html, body{
     height: 100%;
