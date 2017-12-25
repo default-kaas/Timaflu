@@ -58,12 +58,12 @@
 
             <fieldset>
                 <label>Plaats</label>
-                <input>
+                <input class="disabled" disabled>
             </fieldset>
 
             <fieldset>
                 <label>Straat</label>
-                <input>
+                <input class="disabled" disabled>
             </fieldset>
 
             <fieldset>
@@ -87,15 +87,16 @@
 
             <fieldset>
                 <label>Plaats</label>
-                <input>
+                <input class="disabled" disabled>
             </fieldset>
             <fieldset>
                 <label>Straat</label>
-                <input>
+                <input class="disabled" disabled>
             </fieldset>
         </div>
         <div class="content_box_right">
-            <fieldset class="left">
+            <div class="orders">
+            <fieldset class="top" id="left">
                 <label>Medicijn</label>
                 <select>
                     <option>kaas</option>
@@ -108,15 +109,26 @@
                 <input type="submit" class="button" name="submitbutton" value="Extra product">
             </fieldset>
 
-            <fieldset>
+            <fieldset class="top">
                 <label>Aantal</label>
                 <input>
             </fieldset>
 
-            <fieldset>
+            <fieldset class="top">
                 <label>Prijs</label>
                 <input>
             </fieldset>
+            </div>
+            <div class="price_total">
+                <fieldset class="colum">
+                    <label>Totaal prijs:</label>
+                    <label>Totaal prijs inclusief korting:</label>
+                </fieldset>
+                <fieldset class="colum">
+                    <input class="disabled" disabled>
+                    <input class="disabled" disabled>
+                </fieldset>
+            </div>
         </div>
     </div>
         <div class="content_box_button">

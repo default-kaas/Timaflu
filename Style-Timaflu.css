@@ -92,10 +92,16 @@ h1{
 /*Order_assembly form right side */
 .content_box_right{
     display: flex;
+    flex-direction: column;
     width:50%;
 }
 
-.content_box_right fieldset{
+.content_box_right .orders{
+    display: flex;
+    flex-direction: row;
+}
+
+.content_box_right .top{
     display: flex;
     flex-direction: column;
 }
@@ -103,6 +109,17 @@ h1{
 .content_box_right  .left{
     margin-left: 23%;
 }
+/*Order_assembly from right side price total*/
+.content_box_right .price_total{
+    display: flex;
+    flex-direction: row;
+}
+
+.content_box_right .price_total .colum{
+    display: flex;
+    flex-direction: column;
+}
+
 
 /*Order_assembly bottom buttons */
 .content_box_button{
@@ -119,9 +136,16 @@ h1{
     font-weight: bold;
 }
 
-.content_box_right .button{
-    margin-top: 20px;
+.content_box_right .button,.content_box_right label,.content_box_right input{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+/*This is for the disabled fields*/
+.disabled{
+    background-color: lightgray;
+}
+
 
 /*Form */
 form{
