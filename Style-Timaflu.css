@@ -149,12 +149,31 @@ h1{
 
 /*Form */
 form{
+    flex-direction: column;
+    display: flex;
     color: white;
     font-family: 'open sans', sans-serif;
+    justify-content: center;
 }
 
 form fieldset{
     border: none;
+}
+
+.search_invoice label, .search_invoice select, .search_invoice fieldset input{
+    display: flex;
+    justify-content: center;
+
+}
+
+.search_invoice .button{
+    margin: 0;
+}
+
+.search_invoice fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /*Table */
@@ -164,9 +183,10 @@ form fieldset{
 }
 
 table {
-    font-family: arial, sans-serif;
+    font-family: 'open sans', sans-serif;
     border-collapse: collapse;
-    width: 70%;
+    width: 60%;
+    margin-bottom: 10px;
 }
 
 th, td {
