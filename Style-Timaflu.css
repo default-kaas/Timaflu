@@ -57,7 +57,7 @@ nav ul .dropdown{
 }
 
 /*Text elments */
-h1{
+h1,h2{
     color: white;
     font-family: 'open sans', sans-serif;
     text-align: center;
@@ -86,7 +86,7 @@ h1{
 .content_box_left fieldset{
     display: flex;
     flex-direction: column;
-    margin-left: 35%;
+    margin-left: 45%;
 }
 
 /*Order_assembly form right side */
@@ -145,7 +145,16 @@ h1{
 .disabled{
     background-color: lightgray;
 }
-
+/*Order_by_product select medicine*/
+.select_medicine{
+    flex-direction: column;
+    display: flex;
+    color: white;
+    font-family: 'open sans', sans-serif;
+    justify-content: center;
+    margin: auto;
+    width: 95px;
+}
 
 /*Form */
 form{
@@ -156,13 +165,12 @@ form{
     justify-content: center;
 }
 
-form fieldset{
+fieldset{
     border: none;
 }
 
 .search_invoice label, .search_invoice select, .search_invoice fieldset input{
     display: flex;
-
 
 }
 
@@ -187,6 +195,10 @@ table {
     border-collapse: collapse;
     width: 60%;
     margin-bottom: 10px;
+}
+
+#Second_table_order_by_product{
+    width: 30%;
 }
 
 th, td {
