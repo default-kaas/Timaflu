@@ -162,7 +162,7 @@ form fieldset{
 
 .search_invoice label, .search_invoice select, .search_invoice fieldset input{
     display: flex;
-    justify-content: center;
+
 
 }
 
@@ -173,7 +173,7 @@ form fieldset{
 .search_invoice fieldset{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin-left: 46%;
 }
 
 /*Table */
