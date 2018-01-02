@@ -136,7 +136,7 @@ h1,h2{
     font-weight: bold;
 }
 
-.content_box_right .button,.content_box_right label,.content_box_right input{
+.content_box_right .button,.content_box_right label,.content_box_right input,.content_box_right select{
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -209,6 +209,7 @@ th, td {
 }
 
 th{
+    color: black;
     background-color: lightgray;
     padding: 4px;
 }
